@@ -29,6 +29,12 @@
             <label for="age">Age:</label>
             <input type="text" v-model="age">
 
+            <p>{{ a }}</p>
+            <p>{{ b }}</p>
+            <button v-on:click="a++">Add to A</button>
+            <button v-on:click="b++">Add to B</button>
+            <p>age + A = {{ addToA }}</p>
+            <p>age + B = {{ addToB }}</p>
         </div>
 
 
