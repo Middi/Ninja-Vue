@@ -1,9 +1,10 @@
 new Vue({
     el: '#vue-app',
     data: {
-       age: 33,
-       x: 0,
-       y: 0
+        name: '',
+        age: '',
+        x: 0,
+        y: 0
     },
     methods: {
         add: function(e) {
@@ -18,12 +19,6 @@ new Vue({
         },
         click: function() {
             alert("You Clicked");
-        },
-        logName: function(e) {
-            console.log(this);
-        },
-        logAge: function() {
-            console.log('you entered your age');
         }
     }
 });
