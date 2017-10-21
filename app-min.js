@@ -19,8 +19,8 @@ new Vue({
         click: function() {
             alert("You Clicked");
         },
-        logName: function() {
-            console.log('you entered your name');
+        logName: function(e) {
+            console.log(this);
         },
         logAge: function() {
             console.log('you entered your age');
