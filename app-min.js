@@ -18,6 +18,12 @@ new Vue({
         },
         click: function() {
             alert("You Clicked");
+        },
+        logName: function() {
+            console.log('you entered your name');
+        },
+        logAge: function() {
+            console.log('you entered your age');
         }
     }
 });
